@@ -18,14 +18,15 @@ adaMVP works with Python >= 3.8. Please make sure you have the correct version o
 
 We highly recommend using an isolated python environment using [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) or [virtualenv](https://docs.python.org/3/library/venv.html).
 1. Create python>=3.8 environment
-   - Using conda: `conda create -n ada_mvp python=3.8`
    - Using virtualenv: `python -m venv ada_mvp`
+   - Using conda: `conda create -n ada_mvp python=3.8`
+   
 
-2. Activate environment
-   - Using conda: `conda activate ada_mvp`
+3. Activate environment
    - Using virtualenv: `source ada_mvp/bin/activate`
+   - Using conda: `conda activate ada_mvp`
 
-3. After setting the environment, you could install adaMVP via pip:
+4. After setting the environment, you could install adaMVP via pip:
 
 ```bash
 pip install adaMVP_new
@@ -68,6 +69,7 @@ mbg.find_fn_and_calculate_score(altered_freq_file = input_file, save_directory =
 ```
 
 After the first step, a file 'first_neighbors_detected.csv' will be saved to the save_directory. 
+
 (optional) You may perform row filtering to filter out the genes that are not expressed before the next step.
 
 ##### step2. build MVP model for prioritizing molecular vulerabilities
