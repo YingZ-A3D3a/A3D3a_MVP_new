@@ -1,7 +1,7 @@
-[![Python package](https://img.shields.io/pypi/v/adaMVP.svg?color=brightgreen&label=python-package)](https://pypi.org/project/adaMVP-new/)
+[![Python package](https://img.shields.io/pypi/v/adaMVP_new.svg?color=brightgreen&label=python-package)](https://pypi.org/project/adaMVP_new)
 
 # A3D3a's MVP (adaMVP_new)
-This is the official codebase for **adaMVP: Probabilistic graph-based model uncovers druggable vulnerabilities in major solid cancers.** 
+This is the upgraded version of codebase for **adaMVP: Probabilistic graph-based model uncovers druggable vulnerabilities in major solid cancers.** 
 [paper](https://www.biorxiv.org/content/10.1101/2024.06.04.597409v1)
 
 This is a new version of the code, with the interactome updated, and the method for selection of the first neighbors are being updated.
