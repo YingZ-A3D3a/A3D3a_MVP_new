@@ -47,7 +47,7 @@ The recommended number of seed genes is between 50-250. For data from multiple m
 ## Run examples
 #### Find first neighbors and build MVP model for prioritizing molecular vulerabilities
 ```shell
-from adaMVP import mvp_build_graph as mbg
+from adaMVP_new import mvp_build_graph as mbg
 input_file = 'TCGA_BRCA_DNA_altered_freq.csv'
 mbg.find_fn_and_pgm(save_directory = '.',
             to_remove = ['TTN','MUC16'],
@@ -63,7 +63,7 @@ mbg.find_fn_and_pgm(save_directory = '.',
 ##### step1. find first neighbors
 
 ```shell
-from adaMVP import mvp_build_graph as mbg
+from adaMVP_new import mvp_build_graph as mbg
 
 mbg.find_fn_and_calculate_score(altered_freq_file = input_file, save_directory = '.', to_remove = ['TTN','MUC16'], n_perm = 10000)
 ```
@@ -75,7 +75,7 @@ After the first step, a file 'first_neighbors_detected.csv' will be saved to the
 ##### step2. build MVP model for prioritizing molecular vulerabilities
 
 ```shell
-from adaMVP import mvp_build_graph as mbg
+from adaMVP_new import mvp_build_graph as mbg
 
 mbg.build_pgm(altered_freq_file = input_file,
               first_neighbor_file = 'first_neighbors_detected.csv',
