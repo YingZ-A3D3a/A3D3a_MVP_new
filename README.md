@@ -18,12 +18,12 @@ adaMVP works with Python >= 3.8. Please make sure you have the correct version o
 
 We highly recommend using an isolated python environment using [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) or [virtualenv](https://docs.python.org/3/library/venv.html).
 1. Create python>=3.8 environment
-   - Using virtualenv: `python -m venv ada_mvp`
+   - Using venv: `python -m venv ada_mvp`
    - Using conda: `conda create -n ada_mvp python=3.8`
    
 
 3. Activate environment
-   - Using virtualenv: `source ada_mvp/bin/activate`
+   - Using venv: `source ada_mvp/bin/activate`
    - Using conda: `conda activate ada_mvp`
 
 4. After setting the environment, you could install adaMVP via pip:
