@@ -101,4 +101,4 @@ Two output files, 'first_neighbors.csv' and 'markov_output.csv' will be saved in
 ### Tutorial 
 The tutorial for running the adaMVP pipeline can be found at 
 
-[build graph and community detection](https://github.com/YingZ-A3D3a/A3D3a_MVP/blob/main/tutorial/graph_modeling_and_community_detection.ipynb)
+[build graph and community detection](https://github.com/YingZ-A3D3a/A3D3a_MVP_new/blob/main/graph_modeling_and_community_detection.ipynb)
