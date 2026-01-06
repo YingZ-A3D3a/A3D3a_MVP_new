@@ -80,6 +80,7 @@ from adaMVP_new import mvp_build_graph as mbg
 mbg.build_pgm(altered_freq_file = input_file,
               first_neighbor_file = 'first_neighbors_detected.csv',
               save_directory = '.', fn_num = 550,
+              to_remove = ['TTN','MUC16'],
               thre = 0.02, Wm = 0.7, alpha = 0.1)
 ```
 
