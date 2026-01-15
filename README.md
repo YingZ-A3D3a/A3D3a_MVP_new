@@ -81,7 +81,7 @@ mbg.build_pgm(altered_freq_file = input_file,
               first_neighbor_file = 'first_neighbors_detected.csv',
               save_directory = '.', fn_num = 550,
               to_remove = ['TTN','MUC16'],
-              thre = 0.02, Wm = 0.7, alpha = 0.1)
+              thre = 0.02, Wm = 0.5, alpha = 0.1)
 ```
 
 ### Parameters (mandatory)
@@ -90,7 +90,7 @@ mbg.build_pgm(altered_freq_file = input_file,
 ### Optional Parameters
 - `save_directory`: directory path for saving output files
 - `to_remove`: Genes to be filtered from the seed genes, default=[]
-- `threshold`: Threshold of FDR for the permutation test for finding first neighbors of the seed genes, default=0.05
+- `threshold`: Threshold of FDR for the permutation test for finding first neighbors of the seed genes, default=0.05, recommended range: 0.01-0.05
 - `fn_num`: Maximum number of first neighbors to be brought into the network, sorted by the FDR and number of neighbors in the seeds, default=550, recommended range: 200-600
 - `n_perm`: Number of iterations for the permutation test, default=10000
 - `Wm`: weight parameter on the self-loop of nodes of the Markov chain model, default=0.5, recommended range: 0.4-0.7
